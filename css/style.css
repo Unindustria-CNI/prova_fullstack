@@ -42,7 +42,7 @@
     --color-danger: #cf222e;
     --typewriter-speed: 6s;
     --typewriter-steps: 25;
-    --img-link: url(../../img/external_link.png);
+    --img-link: url(/img/external_link.png);
 }
 
 html {
@@ -191,7 +191,7 @@ p>a {
 
 p>a::after {
     content: var(--img-link);
-    padding: 0 0 0 .3rem;
+    padding: 0 0 0 0.3rem;
 }
 
 p>a:hover {
@@ -224,7 +224,7 @@ p>a:hover {
 
 
 .aulas-md {
-    padding: 0 2rem;
+    padding: 0 0; /*2rem;*/
 }
 
 .aulas-xl {
@@ -415,14 +415,14 @@ input[type=checkbox]:checked~#overlay-button span:after {
 }
 
 #overlay ul li a {
-    color: var(--color-white);
+    /*color: var(--color-white);*/
     text-decoration: none;
     font-size: 1.5em;
     font-weight: 600;
 }
 
 #overlay ul li a:hover {
-    color: var(--color-purple);
+    /*color: var(--color-purple);*/
 }
 
 
@@ -497,14 +497,14 @@ h4.title__effect {
     font-weight: bold;
 }
 
-/**************  Carousel ********************/
+/**************  Carousel *******************/
 
 .carousel-item {
     margin-right: -98%;
 }
 
 .carousel-caption {
-    max-width: 670px;
+    /*max-width: 670px;*/
     justify-content: center;
     align-items: center;
     border-radius: 16px;
@@ -586,13 +586,31 @@ h4.title__effect {
     color: var(--color-light-green);
 }
 
+.carousel-next-prev{
+    max-width: 50%;
+} 
+
+
 /**************  Baralho ********************/
+.img-baralho{
+    height: auto;
+    max-width: 50%;
+}
+.img-minibaralho{
+    height: auto;
+    max-width: 80%;
+}
+.img-baralho-card{
+    max-width: 100%;
+    max-height: 90%;
+}
+
 .baralho__texto {
     position: absolute;
     top: 6rem;
     left: 1.5rem;
     right: 1rem;
-    max-width: 418px;
+    max-width: 380px;
     padding: 2rem;
     line-height: 1.8rem;
     color: var(--color-dark);
@@ -1091,6 +1109,8 @@ h4.title__effect {
 
 /**************  Media Queries ********************/
 
+  
+
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {}
 
@@ -1152,10 +1172,17 @@ h4.title__effect {
 }
 
 /* // Large devices (desktops, less than 1200px) */
-@media (max-width: 1199.98px) {}
+@media (max-width: 1199.98px) {
+    .aulas-md p {
+        max-width: 100%;
+    }
+}
 
 /* X-Large devices (large desktops, less than 1400px) */
-@media (max-width: 1399.98px) {}
-
+@media (max-width: 1399.98px) {
+    .aulas-md p {
+        max-width: 100%;
+    }
+}
 /* // XX-Large devices (larger desktops) */
 /* // No media query since the xxl breakpoint has no upper bound on its width */

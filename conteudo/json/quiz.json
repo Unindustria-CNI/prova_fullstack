@@ -1,0 +1,74 @@
+[
+    {
+        "text": "<p>Pedro é um personal trainer. Recentemente, ele começou a construir sua presença digital, o que tem sido ótimo para seus negócios. O site de Pedro e suas redes ajudam os clientes a acharem seu serviço e também os orienta no agendamento das aulas, além de permitir que Pedro esteja conectado aos seus clientes e descubra novas possibilidades de criar os treinos. </p><p>Mas estar conectado pode trazer riscos de segurança. Pedro deveria se precaver em quais situações?</p><p>Sinalize umas ou mais opções abaixo que estão de acordo com a questão.</p>",
+        "type": "checkbox",
+        "correct": "Todas as alternativas acima.",
+        "feedback": "<p>Pedro deve proteger todas essas informações. Caso contrário, ele pode ter seus dados pessoais e as informações que ele coleta de seus clientes roubados, além de ter sua própria reputação manchada.</p>",
+        "options": [
+            {
+                "text": "a) Ao compartilhar o número de sua conta bancária.",
+                "value": "1"
+            },
+            {
+                "text": "b) Ao compartilhar seus dados.",
+                "value": "1"
+            },
+            {
+                "text": "c) Ao divulgar informações que possam comprometer sua reputação.",
+                "value": "1"
+            },
+            {
+                "text": "d) Ao compartilhar dados de seus clientes.",
+                "value": "1"
+            }
+        ]
+    },
+    {
+        "text": "São riscos mais comuns que você pode se deparar ao navegar na internet, exceto:",
+        "type": "radio",
+        "correct": "d) Pessoas bem-intencionadas.",
+        "feedback": "<p>O contato com pessoas bem-intencionadas não é um risco. Mas não dá para saber, ao certo, as intenções das pessoas com quem você se relaciona em canais digitais.</p><p>Com a falsa sensação de anonimato da internet, algumas pessoas se aproveitam para aplicar golpes, tentar se passar por outras pessoas e cometer crimes como, por exemplo, estelionato, pornografia infantil e sequestro. </p>",
+        "options": [
+            {
+                "text": "a) Conteúdos impróprios e ofensivos.",
+                "value": "0"
+            },
+            {
+                "text": "b) Furto de identidade.",
+                "value": "0"
+            },
+            {
+                "text": "c) Invasão de privacidade.",
+                "value": "0"
+            },
+            {
+                "text": "d) Pessoas bem-intencionadas.",
+                "value": "1"
+            }
+        ]
+    },
+    {
+        "text": "O que é um boato?",
+        "type": "radio",
+        "correct":"a) É uma informação falsa ou distorcida, que chega a um grande número de pessoas.",
+        "feedback": "",
+        "options": [
+            {
+                "text": "a) É uma informação falsa ou distorcida, que chega a um grande número de pessoas.",
+                "value": "1"
+            },
+            {
+                "text": "b) É um programa malicioso que infecta seu computador ou notebook.",
+                "value": "0"
+            },
+            {
+                "text": "c) São dados oficiais de grandes veículos de comunicação.",
+                "value": "0"
+            },
+            {
+                "text": "d) Golpes praticados por um atacante virtual.",
+                "value": "0"
+            }
+        ]
+    }
+]

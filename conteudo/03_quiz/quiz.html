@@ -8,9 +8,9 @@
     <title>Segurança da Informação</title>
     <link rel="icon" href="../../img/favicon.jpg" type="image/x-icon">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.css" integrity="sha256-HbUNBk7RFshpr1S0NuBwv6GHJVJwY2IxjixylSss+mk=" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.3/font/bootstrap-icons.min.css" integrity="sha512-YzwGgFdO1NQw1CZkPoGyRkEnUTxPSbGWXvGiXrWk8IeSqdyci0dEDYdLLjMxq1zCoU0QBa4kHAFiRhUL3z2bow==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="../../css/style.css">
 </head>
 
@@ -30,13 +30,16 @@
                             <label for="overlay-input" id="overlay-button"><span></span></label>
                             <!--MENU-->
                             <div id="overlay">
-                                <ul class="menu">
-                                    <li><a href="../../index.html">Início</a></li>
-                                    <li><a href="aula01_p01.html">Aula 01</a></li>
-                                    <li><a href="../03_quiz/quiz.html" role="button" class="btn btn__link">Quiz</a></li>
+                                <ul class="list-group">
+                                    <li><a class="list-group-item" href="../../index.html">Início</a></li>
+                                    <li><a class="list-group-item" href="../01_aula01/aula01_p01.html">Aula 01</a></li>
+                                    <li><a class="list-group-item active" aria-disabled="true">Quiz</a></li>
                                 </ul>
                             </div>
                             <!--FIM MENU-->
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">80%</div>
                         </div>
                     </div>
                 </div>
@@ -68,180 +71,24 @@
                     </div>
                 </div>
             </section>
-            <section id="quiz01">
+            <section id="gabarito">
                 <div class="row">
                     <div class="col-12 mb-3">
-                        <h2>1/12</h2>
+                        <h2>Gabarito</h2>
                     </div>
                     <div class="col-12">
-                        <div class="d-md-block">
-                            <p>Pedro é um personal trainer. Recentemente, ele começou a construir sua presença digital,
-                                o que tem sido ótimo para seus negócios. O site de Pedro e suas redes ajudam os clientes
-                                a acharem seu serviço e também os orienta no agendamento das aulas, além de permitir que
-                                Pedro esteja conectado aos seus clientes e descubra novas possibilidades de criar os
-                                treinos. </p>
-                            <p>Mas estar conectado pode trazer riscos de segurança. Pedro deveria se precaver em quais
-                                situações?
-                            </p>
-                            <p>Sinalize umas ou mais opções abaixo que estão de acordo com a questão.</p>
+                        <div class="d-md-block" id="itens">
                         </div>
-                    </div>
-                    <div class="col-12 mt-4 quiz01 form-check-group">
-                        <div class="quiz01 form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheck1-1">
-                            <label class="form-check-label" for="flexCheck1-1">
-                                a) Ao compartilhar o número de sua conta bancária.
-                            </label>
-                        </div>
-                        <div class="quiz01 form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheck1-2">
-                            <label class="form-check-label" for="flexCheck1-2">
-                                b) Ao compartilhar seus dados.
-                            </label>
-                        </div>
-                        <div class="quiz01 form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheck1-3">
-                            <label class="form-check-label" for="flexCheck1-3">
-                                c) Ao divulgar informações que possam comprometer sua reputação.
-                            </label>
-                        </div>
-                        <div class="quiz01 form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheck1-4">
-                            <label class="form-check-label" for="flexCheck1-4">
-                                d) Ao compartilhar dados de seus clientes.
-                            </label>
-                        </div>
-                    </div>
-                    <div class="col-12 py-2 mt-4"> <a href="#"
-                            class="btn btn__disabled-form text-center cyberpunk glitched">CONFERIR</a>
-                    </div>
-                    <div class="col-sm-8">
-                        <h5>Resposta</h5>
-                        <p><strong>Todas as alternativas acima</strong></p>
-                        <p>Pedro deve proteger todas essas informações. Caso contrário, ele pode ter seus dados pessoais
-                            e as informações que ele coleta de seus clientes roubados, além de ter sua própria reputação
-                            manchada.</p>
-                    </div>
-                    <div class="col-sm-4 d-flex align-items-center justify-content-center"><a href="#" type="button"
-                            data-bs-target="#carouselCaptions" data-bs-slide="next" id="btnNext"><img
-                                src="../../img/seta_direita_ativa.png" alt="Próximo" class="img-fluid"></a>
                     </div>
                 </div>
             </section>
-
-            <section id="quiz02">
-                <div class="row">
-                    <div class="col-12 mb-3">
-                        <h2>2/12</h2>
-                    </div>
-                    <div class="col-12">
-                        <div class="d-md-block">
-                            <p>São riscos mais comuns que você pode se deparar ao navegar na internet, exceto: </p>
-                        </div>
-                    </div>
-                    <div class="col-12 mt-4">
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="flexRadio" id="flexRadio2-1">
-                            <label class="form-check-label" for="flexRadio2-1">
-                                a) Conteúdos impróprios e ofensivos.
-                            </label>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="flexRadio" id="flexRadio2-2">
-                            <label class="form-check-label" for="flexRadio2-2">
-                                b) Furto de identidade.
-                            </label>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="flexRadio" id="flexRadio2-3">
-                            <label class="form-check-label" for="flexRadio2-3">
-                                c) Invasão de privacidade.
-                            </label>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="flexRadio" id="flexRadio2-4">
-                            <label class="form-check-label" for="flexRadio2-4">
-                                d) Pessoas bem-intencionadas.
-                            </label>
-                        </div>
-                    </div>
-                    <div class="col-12 py-2 mt-4"> <a href="#"
-                            class="btn btn__disabled-form text-center cyberpunk glitched">CONFERIR</a>
-                    </div>
-                    <div class="col-sm-8">
-                        <h5>Resposta</h5>
-                        <p><strong>d) Pessoas bem-intencionadas.</strong></p>
-                        <p>O contato com pessoas bem-intencionadas não é um risco. Mas não dá para saber, ao certo, as
-                            intenções das pessoas com quem você se relaciona em canais digitais.
-                        </p>
-                        <p>Com a falsa sensação de anonimato da internet, algumas pessoas se aproveitam para aplicar
-                            golpes, tentar se passar por outras pessoas e cometer crimes como, por exemplo, estelionato,
-                            pornografia infantil e sequestro. </p>
-                    </div>
-                    <div class="col-sm-4 d-flex align-items-center justify-content-center"><a href="#" type="button"
-                            data-bs-target="#carouselCaptions" data-bs-slide="next" id="btnNext"><img
-                                src="../../img/seta_direita_ativa.png" alt="Próximo" class="img-fluid"></a>
-                    </div>
-                </div>
-            </section>
-
-            <section id="quiz03">
-                <div class="row">
-                    <div class="col-12 mb-3">
-                        <h2>3/12</h2>
-                    </div>
-                    <div class="col-12">
-                        <div class="d-md-block">
-                            <p>O que é um boato? </p>
-                        </div>
-                    </div>
-                    <div class="col-12 mt-4">
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="flexRadio" id="flexRadio3-1">
-                            <label class="form-check-label" for="flexRadio3-1">
-                                a) É uma informação falsa ou distorcida, que chega a um grande número de pessoas.
-                            </label>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="flexRadio" id="flexRadio3-2">
-                            <label class="form-check-label" for="flexRadio3-2">
-                                b) É um programa malicioso que infecta seu computador ou notebook.
-                            </label>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="flexRadio" id="flexRadio3-3">
-                            <label class="form-check-label" for="flexRadio3-3">
-                                c) São dados oficiais de grandes veículos de comunicação.
-                            </label>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="flexRadio" id="flexRadio3-4">
-                            <label class="form-check-label" for="flexRadio3-4">
-                                d) Golpes praticados por um atacante virtual.
-                            </label>
-                        </div>
-                    </div>
-                    <div class="col-12 py-2 mt-4"> <a href="#"
-                            class="btn btn__disabled-form text-center cyberpunk glitched">CONFERIR</a>
-                    </div>
-                    <div class="col-sm-8">
-                        <h5>Resposta</h5>
-                        <p><strong>a) É uma informação falsa ou distorcida, que chega a um grande número de
-                                pessoas.</strong></p>
-                    </div>
-                    <div class="col-sm-4 d-flex align-items-center justify-content-center"><a href="#" type="button"
-                            data-bs-target="#carouselCaptions" data-bs-slide="next" id="btnNext"><img
-                                src="../../img/seta_direita_ativa.png" alt="Próximo" class="img-fluid"></a>
-                    </div>
-                </div>
-            </section>
-
         </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha256-cMPWkL3FzjuaFSfEYESYmjF25hCIL6mfRSPnW8OVvM4=" crossorigin="anonymous"></script>
     </script>
     <script type="text/javascript" src="../../js/script.js"></script>
+    <script type="text/javascript" src="../../js/quiz.js"></script>
 
 </body>
 

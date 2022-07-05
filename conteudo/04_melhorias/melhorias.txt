@@ -1,0 +1,27 @@
+Adicionado a biblioteca Jquery mais recente para aproveitar o potencial desse poderoso framework. Como ele o código pode ser mais limpo, sucinto. Também atualizei o css e js do bootstrap para a versão mais recentes.
+
+Separei os arquivos js para cada página para atender as particularidades de cada conteúdo e evitar erros. O arquivo script.js continua, mas com funções globais.
+
+Adicionei uma barra de navegação no topo da tela para indicar o avanço no curso.
+
+Usei plugins adicionais aos Jquery para gerar cookie com o nome do aluno, apresentar o calendário na data de nascimento, e animações.
+
+Em cursos no padrão scorm (desde a versão 1.1) é possível pegar o nome do aluno logado no LMS, com os comandos LMSInitialize(“”), LMSGetValue(element : CMIElement) e LMSFinish().
+
+Em cursos no padrão scorm (desde a versão 1.1) é possível gravar o resultado do quiz no LMS, com os comandos LMSInitialize(“”), LMSSetValue( element : CMIElement, value), LMSCommit( “” ) e LMSFinish(). Também é possível informar ao LMS a situação pelos status:
+“passed”, “completed”, “failed”, “incomplete”, “browsed”, “not attempted”, RW
+
+Minha intenção era refatorar o código Javascript (Jquery), mas embora o tempo da prova foi suficiente para tal, tive problemas pessoais incomuns.
+
+Identifiquei que preciso fazer um curso de reciclagem de CSS. Por isso pouco alterei esse arquivo. Também acredito que o CSS é a ferramenta para entregar a parte visual exatamente como o Designer planejou, ou seja, alterar o CSS só em casos de não conformidade com design, responsividade, erros, etc. Fiz alguns ajustes para ser mais bem apresentado nos dispositivos móveis, mas tive limitações com o tempo de entrega.
+
+Deixei por último a conversão do Javascript para jquery da página 00_intro/intro_p01.html, 
+melhorar o carousel e o menu, porém não deu tempo.
+
+Utilizei alguns recursos de array para plotar dinamicamente na tela os conteúdos com estruturas iguais. É uma prática que gosto de usar, mas infelizmente não deu tempo de refatorar.
+
+Não consegui fazer funcionar o keypress da letra “C” para acionar uma ação. Estava tentando com plugin, mas no final acabei comentando o código.
+
+O controle de navegação do conteúdo (acionar o próximo conteúdo quando finalizar o atual) estava funcionando muito bem, mas depois que adicionei a barra de progresso ficou um pouco foca do centro as animações. Também não tive tempo de ajustar.
+
+O recomendado é manter uma (engine) ou bibliotecas de funções prontas que auxiliam no controle de navegação do curso, proporcionando produtividade no desenvolvimento padronização e reutilização dos códigos.
